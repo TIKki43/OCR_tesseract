@@ -2,7 +2,7 @@ gs.png
 pre-processed_img.png
 skew_corrected.png
 test.py
-test1.pyg
+test1.py
 .idea
 .gitignore
 __pycache__
