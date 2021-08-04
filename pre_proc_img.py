@@ -5,7 +5,7 @@ import cv2
 from PIL import Image as im
 from scipy.ndimage import interpolation as inter
 
-PathToImg = '/home/timur/Downloads/test_scan.jpg'
+PathToImg = input('Please, enter full path to scan image: ')
 
 img = im.open(PathToImg)
 w, h = img.size

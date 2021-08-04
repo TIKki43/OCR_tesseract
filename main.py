@@ -3,10 +3,10 @@ import cv2
 import pytesseract
 from pytesseract import Output
 from pre_proc_img import pre_proc_img
-
+from pre_proc_img import PathToImg
 
 custom_config = r'--oem 3 --psm 6'
-path_to_img = '/home/timur/Downloads/test_scan.jpg'
+path_to_img = PathToImg
 
 image = cv2.imread(path_to_img)
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
