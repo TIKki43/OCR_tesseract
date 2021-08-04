@@ -3,3 +3,6 @@ pre-processed_img.png
 skew_corrected.png
 test.py
 test1.pyg
+.idea
+.gitignore
+__pycache__
